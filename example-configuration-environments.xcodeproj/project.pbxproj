@@ -16,7 +16,6 @@
 		0C6E8C942A302DB3001620CD /* example_configuration_environmentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8C932A302DB3001620CD /* example_configuration_environmentsTests.swift */; };
 		0C6E8C9E2A302DB3001620CD /* example_configuration_environmentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8C9D2A302DB3001620CD /* example_configuration_environmentsUITests.swift */; };
 		0C6E8CA02A302DB3001620CD /* example_configuration_environmentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8C9F2A302DB3001620CD /* example_configuration_environmentsUITestsLaunchTests.swift */; };
-		0C6E8CBD2A303814001620CD /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8CBC2A303814001620CD /* BuildConfiguration.swift */; };
 		0C6E8CC22A304009001620CD /* ExampleStagingConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E8CC12A304009001620CD /* ExampleStagingConfig.xcconfig */; };
 		0C6E8CC42A30401F001620CD /* ExcampleDevConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E8CC32A30401F001620CD /* ExcampleDevConfig.xcconfig */; };
 		0C6E8CC72A305E3E001620CD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8CC62A305E3E001620CD /* Configuration.swift */; };
@@ -54,7 +53,6 @@
 		0C6E8C992A302DB3001620CD /* example-configuration-environmentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-configuration-environmentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6E8C9D2A302DB3001620CD /* example_configuration_environmentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_configuration_environmentsUITests.swift; sourceTree = "<group>"; };
 		0C6E8C9F2A302DB3001620CD /* example_configuration_environmentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_configuration_environmentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0C6E8CBC2A303814001620CD /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
 		0C6E8CC12A304009001620CD /* ExampleStagingConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ExampleStagingConfig.xcconfig; sourceTree = "<group>"; };
 		0C6E8CC32A30401F001620CD /* ExcampleDevConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ExcampleDevConfig.xcconfig; sourceTree = "<group>"; };
 		0C6E8CC52A304031001620CD /* ExampleConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ExampleConfig.xcconfig; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				0C6E8CC82A305E6F001620CD /* AppEnvironment.swift */,
-				0C6E8CBC2A303814001620CD /* BuildConfiguration.swift */,
 				0C6E8CC62A305E3E001620CD /* Configuration.swift */,
 				0C6E8CC52A304031001620CD /* ExampleConfig.xcconfig */,
 				0C6E8CC12A304009001620CD /* ExampleStagingConfig.xcconfig */,
@@ -289,7 +286,6 @@
 				0C6E8CC72A305E3E001620CD /* Configuration.swift in Sources */,
 				0C6E8C7D2A302DB1001620CD /* AppDelegate.swift in Sources */,
 				0C6E8C7F2A302DB1001620CD /* SceneDelegate.swift in Sources */,
-				0C6E8CBD2A303814001620CD /* BuildConfiguration.swift in Sources */,
 				0C6E8CC92A305E6F001620CD /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
