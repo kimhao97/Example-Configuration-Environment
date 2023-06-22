@@ -8,7 +8,8 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    var photo: Photo?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,6 +18,6 @@ class FirstViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        print("VC: \(String(describing: type(of: self)))")
+        print("VC: \(String(describing: type(of: self))) - ID: \(photo?.id ?? 0)")
     }
 }
